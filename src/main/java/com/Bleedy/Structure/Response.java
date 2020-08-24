@@ -1,9 +1,10 @@
 package com.Bleedy.Structure;
 
+import com.Bleedy.interfaces.iResponse;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Response {
+public class Response implements iResponse {
 
     public Response() {
     }

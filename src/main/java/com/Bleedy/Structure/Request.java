@@ -1,7 +1,9 @@
 package com.Bleedy.Structure;
 
+import org.springframework.stereotype.Component;
 
-public class Request {
+@Component
+public class Request  {
 
     public Request() {
     }
